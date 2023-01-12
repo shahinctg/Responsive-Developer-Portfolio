@@ -278,6 +278,17 @@ section{
     }
 }
 @media screen and (min-width: 577px) and (max-width: 992px) {
+    nav,
+    nav ul{
+        flex-direction: column;
+        margin: 0;
+        padding-left: 20px;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    nav li{
+        margin-left: 0;
+    }
     .banner{
         flex-direction: column;
     }
