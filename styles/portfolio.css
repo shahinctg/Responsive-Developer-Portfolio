@@ -278,6 +278,9 @@ section{
     }
 }
 @media screen and (min-width: 577px) and (max-width: 992px) {
+    .banner{
+        flex-direction: column;
+    }
     .resume-content{
         padding: 30px;
     }
